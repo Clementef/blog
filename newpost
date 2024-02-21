@@ -1,0 +1,6 @@
+#!/bin/sh
+current_datetime=$(date +"%Y-%m-%d-%H-%M-%S")
+new_post="post/$current_datetime.md"
+hugo new content "$new_post"
+nvim "content/$new_post"
+

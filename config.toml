@@ -1,0 +1,32 @@
+title = 'personal blog.'
+baseurl = "/"
+languageCode = "en-us"
+footnotereturnlinkcontents = "↩"
+
+[permalinks]
+note = "/note/:year/:month/:day/:slug/"
+post = "/post/:year/:month/:day/:slug/"
+
+[[menu.main]]
+name = "Home"
+url = ""
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "about/"
+weight = 2
+
+[[menu.main]]
+name = "Categories"
+url = "categories/"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "tags/"
+weight = 4
+
+[params]
+description = "Personal blog build with hugo."
+footer = "&copy; [Clemente Ferrer](https://github.com/clementef) {Year}"
