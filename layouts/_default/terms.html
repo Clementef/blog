@@ -1,7 +1,11 @@
 {{ partial "header.html" . }}
 
+<div class="content">
+<div class="meta">
 <h1>{{ .Title }}</h1>
+</div>
 
+<main>
 <ul>
   {{ range .Data.Terms }}
   <li>
@@ -9,5 +13,7 @@
   </li>
   {{ end }}
 </ul>
+</main>
+</div>
 
 {{ partial "footer.html" . }}

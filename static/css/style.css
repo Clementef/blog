@@ -18,11 +18,12 @@ body {
     text-align: center;
 }
 
-main, .meta {
+.content {
     max-width: 900px;
     text-align: left;
     margin: 0px auto;
     background-color: var(--hl);
+    padding: 1em;
 }
 
 /* background and text color */
@@ -44,7 +45,13 @@ a:hover {
 
 /* navbar */
 nav {
-  display: flex;
+    display: flex;
+    max-width: 900px;
+    text-align: left;
+    margin: 0px auto;
+    margin-bottom: 0.2em;
+    background-color: var(--hl);
+    padding: 0.5em 1em 0.5em 1em;
 }
 
 nav ul {
@@ -56,4 +63,8 @@ nav ul {
 
 nav ul li {
   margin-right: 10px; /* entry separation */
+}
+
+.post-list {
+    list-style-type: none;
 }
