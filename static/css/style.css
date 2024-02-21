@@ -1,0 +1,14 @@
+.navbar {
+  display: flex;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navbar ul li {
+  margin-right: 10px; /* entry separation */
+}
