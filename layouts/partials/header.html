@@ -8,12 +8,13 @@
   </head>
 
   <body>
-    <div class="navbar">
+  <header>
+    <nav>
     <ul>
       {{ range .Site.Menus.main }}
       <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
       {{ end }}
     </ul>
     <hr/>
-    </div>
-  </body>
+    </nav>
+  </header>

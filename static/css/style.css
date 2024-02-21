@@ -1,14 +1,59 @@
-.navbar {
+:root {
+    --bg: #282a36;
+    --fg: #f8f8f2;
+    --hl: #44475a;
+    --hl2: #6272a4;
+    --green: #50fa7b;
+}
+
+body,html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* body center and max width */
+body { 
+    width: 100%;
+    text-align: center;
+}
+
+main, .meta {
+    max-width: 900px;
+    text-align: left;
+    margin: 0px auto;
+    background-color: var(--hl);
+}
+
+/* background and text color */
+body {
+    background-color: var(--bg);
+    color: var(--fg); /* Apply global text color */
+}
+
+/* link */
+a {
+    color: var(--green); /* Apply global link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* hover link */
+a:hover {
+    text-decoration: underline;
+}
+
+/* navbar */
+nav {
   display: flex;
 }
 
-.navbar ul {
+nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
   display: flex;
 }
 
-.navbar ul li {
+nav ul li {
   margin-right: 10px; /* entry separation */
 }

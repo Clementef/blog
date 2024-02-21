@@ -4,9 +4,11 @@
 <h1>{{ .Title | markdownify }}</h1>
 {{ end }}
 
+<main>
+
 {{ .Content }}
 
-<ul>
+<ul class="list">
   {{ $pages := .Pages }}
   {{ if .IsHome }}{{ $pages = .Site.RegularPages }}{{ end }}
   {{ range (where $pages "Section" "!=" "") }}
@@ -16,5 +18,7 @@
   </li>
   {{ end }}
 </ul>
+
+</main>
 
 {{ partial "footer.html" . }}
