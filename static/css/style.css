@@ -85,3 +85,6 @@ footer {
     margin-top: var(--section_margin);
 }
 
+.margin-top {
+    margin-top: var(--section_margin);
+}
