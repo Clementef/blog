@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on personal blog.</title>
+    <title>Home on personal blog</title>
     <link>/</link>
-    <description>Recent content in Home on personal blog.</description>
+    <description>Recent content in Home on personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Feb 2024 23:44:19 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 21 Feb 2024 18:14:12 -0800</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>post Feb 20, 2024</title>
-      <link>/post/2024/02/20/114419-pm-pst/</link>
-      <pubDate>Tue, 20 Feb 2024 23:44:19 -0800</pubDate>
-      <guid>/post/2024/02/20/114419-pm-pst/</guid>
-      <description>This is a test post.&#xA;I can include $\LaTeX$ and code:&#xA;# python code for i in range(5): print(i) Images are centered:</description>
+      <title>initial post</title>
+      <link>/post/2024/02/21/initial_post/</link>
+      <pubDate>Wed, 21 Feb 2024 18:14:12 -0800</pubDate>
+      <guid>/post/2024/02/21/initial_post/</guid>
+      <description>markdown list numbered markdown list unordered footnote 1 $\LaTeX$ Rendering: $$f(x) = \sum_{n=0}^{\infty} a^n \cos(b^n \pi x)$$&#xA;$$ A = \begin{bmatrix} a_{11} &amp;amp; a_{12} &amp;amp; \dots &amp;amp; a_{1n} \\ a_{21} &amp;amp; a_{22} &amp;amp; \dots &amp;amp; a_{2n} \\ \vdots &amp;amp; \vdots &amp;amp; \ddots &amp;amp; \vdots \\ a_{n1} &amp;amp; a_{n2} &amp;amp; \dots &amp;amp; a_{nn} \end{bmatrix} $$&#xA;# r code x &amp;lt;- c(1,2,3,4) mean(x) # python code x = [i for i in range(5)] link: github</description>
     </item>
     <item>
       <title>about this blog</title>
       <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/about/</guid>
-      <description>Content here.</description>
+      <description>source on github</description>
     </item>
   </channel>
 </rss>

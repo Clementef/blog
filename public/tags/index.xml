@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on personal blog.</title>
+    <title>Tags on personal blog</title>
     <link>/tags/</link>
-    <description>Recent content in Tags on personal blog.</description>
+    <description>Recent content in Tags on personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Feb 2024 23:44:19 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 21 Feb 2024 18:14:12 -0800</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>draft</title>
       <link>/tags/draft/</link>
-      <pubDate>Tue, 20 Feb 2024 23:44:19 -0800</pubDate>
+      <pubDate>Wed, 21 Feb 2024 18:14:12 -0800</pubDate>
       <guid>/tags/draft/</guid>
       <description></description>
     </item>
