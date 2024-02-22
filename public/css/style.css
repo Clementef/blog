@@ -1,0 +1,70 @@
+:root {
+    --bg: #282a36;
+    --fg: #f8f8f2;
+    --hl: #44475a;
+    --hl2: #6272a4;
+    --green: #50fa7b;
+}
+
+body,html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* body center and max width */
+body { 
+    width: 100%;
+    text-align: center;
+}
+
+.content {
+    max-width: 900px;
+    text-align: left;
+    margin: 0px auto;
+    background-color: var(--hl);
+    padding: 1em;
+}
+
+/* background and text color */
+body {
+    background-color: var(--bg);
+    color: var(--fg); /* Apply global text color */
+}
+
+/* link */
+a {
+    color: var(--green); /* Apply global link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* hover link */
+a:hover {
+    text-decoration: underline;
+}
+
+/* navbar */
+nav {
+    display: flex;
+    max-width: 900px;
+    text-align: left;
+    margin: 0px auto;
+    margin-bottom: 0.2em;
+    background-color: var(--hl);
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 10px; /* entry separation */
+}
+
+.post-list {
+    list-style-type: none;
+}
