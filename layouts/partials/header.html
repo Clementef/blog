@@ -7,14 +7,13 @@
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}" />
   </head>
 
-  <body>
+<body>
   <header>
-    <nav>
+  <nav class="content card padded">
     <ul>
       {{ range .Site.Menus.main }}
       <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
       {{ end }}
     </ul>
-    <hr/>
-    </nav>
-  </header>
+  </nav>
+</header>

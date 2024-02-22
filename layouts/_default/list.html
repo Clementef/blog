@@ -1,14 +1,20 @@
 {{ partial "header.html" . }}
 
 {{if not .IsHome }}
+<div class="content card">
 <h1>{{ .Title | markdownify }}</h1>
+</div>
 {{ end }}
 
-<div class="content">
 <main>
 
-{{ .Content }}
+{{ with .Content }}
+<div class="content card">
+{{ . }}
+</div>
+{{ end }}
 
+<div class="content card">
 <ul class="post-list">
   {{ $pages := .Pages }}
   {{ if .IsHome }}{{ $pages = .Site.RegularPages }}{{ end }}
@@ -19,8 +25,8 @@
   </li>
   {{ end }}
 </ul>
+</div>
 
 </main>
-</div>
 
 {{ partial "footer.html" . }}

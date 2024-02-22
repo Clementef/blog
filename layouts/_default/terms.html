@@ -1,11 +1,13 @@
 {{ partial "header.html" . }}
 
-<div class="content">
+<div class="content card">
 <div class="meta">
 <h1>{{ .Title }}</h1>
 </div>
+</div>
 
 <main>
+<div class="content card padded">
 <ul>
   {{ range .Data.Terms }}
   <li>
@@ -13,7 +15,7 @@
   </li>
   {{ end }}
 </ul>
-</main>
 </div>
+</main>
 
 {{ partial "footer.html" . }}

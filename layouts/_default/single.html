@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
 
-<div class="content">
+<div class="content card padded">
 <div class="meta">
 <h1>{{ .Title | markdownify }}</h1>
 {{ with .Params.author }}<h2>{{ . }}</h2>{{ end }}
