@@ -2,4 +2,4 @@
 
 ## built with [hugo](https://github.com/gohugoio/hugo)
 
-![demo image](static/img/blog_demo.png)
+![demo image](static/img/demo_img.png)
