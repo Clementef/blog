@@ -10,12 +10,10 @@
   </head>
 
 <body>
-  <header class="margin-top">
-  <nav class="content inset">
-    <ul>
-      {{ range .Site.Menus.main }}
-      <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-      {{ end }}
-    </ul>
+  <header>
+  <nav class="content inset" >
+  {{ range .Site.Menus.main }}
+      <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+  {{ end }}
   </nav>
 </header>

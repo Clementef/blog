@@ -57,25 +57,35 @@ a:hover, a:visited, a:link, a:active {
     color: var(--link);
 }
 
-header {
+/* header {
     margin-bottom: var(--section_margin);
-}
+} */
 
 /* navbar */
-nav {
+/* nav {
     display: flex;
-}
+} */
 
-nav ul {
+/* nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
   display: flex;
+} */
+
+/* nav ul li {
+  font-size: 100%;
+  margin-right: var(--nav_item_margin);
+} */
+
+nav {
+    background-color: #111111;
 }
 
-nav ul li {
-  font-size: 100%;
-  margin-right: var(--nav_item_margin); /* entry separation */
+nav a {
+  font-size: 16px;
+  color: white;
+  padding: 14px 16px;
 }
 
 .post-list {
