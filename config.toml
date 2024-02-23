@@ -31,5 +31,6 @@ weight = 4
 description = "Personal blog build with hugo."
 footer = "&copy; [Clemente Ferrer](https://github.com/clementef) {Year}"
 
-[markup.goldmark.renderer]
-unsafe = true
+[markup]
+  defaultMarkdownHandler = 'goldmark'
+

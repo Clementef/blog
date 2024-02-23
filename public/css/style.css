@@ -35,12 +35,9 @@ code {
     margin: 0px auto;
 }
 
-.inset {
-    padding: var(--card_margin_v) var(--card_margin_h) var(--card_margin_v) var(--card_margin_h) 
-}
-
 .card {
     background-color: var(--hl);
+    padding: var(--card_margin_v) var(--card_margin_h) var(--card_margin_v) var(--card_margin_h) 
 }
 
 /* background and text color */
@@ -91,16 +88,4 @@ footer {
 
 .margin-top {
     margin-top: var(--section_margin);
-}
-
-table, th, td {
-  border: 1px solid;
-}
-
-th, td {
-    padding: 0.4em;
-}
-
-table {
-    border-collapse: collapse;
 }
