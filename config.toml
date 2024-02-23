@@ -34,3 +34,5 @@ footer = "&copy; [Clemente Ferrer](https://github.com/clementef) {Year}"
 [markup]
   defaultMarkdownHandler = 'goldmark'
 
+[markup.goldmark.renderer]
+  unsafe= true
