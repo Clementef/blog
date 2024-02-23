@@ -33,6 +33,8 @@ footer = "&copy; [Clemente Ferrer](https://github.com/clementef) {Year}"
 
 [markup]
   defaultMarkdownHandler = 'goldmark'
+  highlight.noClasses=false
 
 [markup.goldmark.renderer]
   unsafe= true
+

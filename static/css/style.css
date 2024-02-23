@@ -20,6 +20,12 @@ pre {
     padding: var(--card_margin_v) var(--card_margin_h) var(--card_margin_v) var(--card_margin_h); 
 } /* code block container */
 
+.chroma {
+    background-color: var(--hl);
+    border: var(--border_style);
+    border-color: var(--fg)
+}
+
 .content {
     max-width: var(--content_max_width);
     text-align: left;
@@ -32,6 +38,7 @@ pre {
 
 .card {
     background-color: var(--hl);
+    border-radius: 0.5em;
 }
 
 /* background and text color */
@@ -78,6 +85,7 @@ nav ul li {
 
 footer {
     margin-top: var(--section_margin);
+    margin-bottom: var(--section_margin);
 }
 
 .margin-top {
@@ -85,7 +93,8 @@ footer {
 }
 
 table, th, td {
-  border: 1px solid;
+  border: var(--border_style);
+  border-color: var(--fg)
 }
 
 th, td {

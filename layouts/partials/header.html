@@ -4,13 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ .Title }} | {{ .Site.Title }}</title>
+    <link rel="stylesheet" href="{{ "css/syntax.css" | relURL }}" />
     <link rel="stylesheet" href="{{ "css/theme.css" | relURL }}" />
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}" />
   </head>
 
 <body>
-  <header>
-  <nav class="content inset card">
+  <header class="margin-top">
+  <nav class="content inset">
     <ul>
       {{ range .Site.Menus.main }}
       <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
