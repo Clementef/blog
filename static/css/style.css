@@ -47,15 +47,9 @@ body {
     color: var(--fg); /* Apply global text color */
 }
 
-/* link */
-a {
-    color: var(--link); /* Apply global link color */
-    text-decoration: none; /* Remove underline from links */
-}
-
-/* hover link */
-a:hover {
-    text-decoration: underline;
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+    color: var(--link);
 }
 
 header {
@@ -107,7 +101,7 @@ table {
 
 blockquote {
   background: var(--hl);
-  border-left: .3em solid var(--fg);
+  border-left: .3em solid var(--hl2);
   padding: 0.1em 1em 0.1em; /* top left bottom */
 }
 
