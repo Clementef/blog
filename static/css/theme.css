@@ -1,9 +1,9 @@
 :root {
-    --bg: #FFFFFF;
-    --fg: #000000;
-    --hl: #E1E5F2;
-    --hl2: #4C5C68;
-    --link: #004E98;
+    --bg: #252422;
+    --fg: #F8F8F2;
+    --hl: #323232;
+    --hl2: #adb5bd;
+    --link: #8be9fd;
     --card_margin_h: 1em;
     --card_margin_v: 0.5em;
     --section_margin: 0.5em;

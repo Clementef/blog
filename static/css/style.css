@@ -14,17 +14,17 @@ body {
 code {
     font-family: Consolas, monospace;
     font-size: 95%;
-}
+} /* code font */
 
 pre {
     padding: var(--card_margin_v) var(--card_margin_h) var(--card_margin_v) var(--card_margin_h); 
 } /* code block container */
 
-.chroma {
-    background-color: var(--hl);
+/* .chroma {
+    background-color: var(--hl2);
     border: var(--border_style);
     border-color: var(--fg)
-}
+} */ /* code colors */
 
 .content {
     max-width: var(--content_max_width);
