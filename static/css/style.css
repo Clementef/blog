@@ -63,7 +63,7 @@ a:hover, a:visited, a:link, a:active {
 }
 
 nav a {
-  padding: var(--nav_margin_t) var(--card_margin_v) var(--nav_margin_b) var(--card_margin_v);
+  padding: var(--nav_margin_t) var(--nav_margin_h) var(--nav_margin_b) var(--nav_margin_h);
 } /* top right bottom left*/
 
 .post-list {

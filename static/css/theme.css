@@ -7,10 +7,11 @@
     --table_entry: #444444;
     --blockquote_bg: #444444;
     --blockquote_line: #888888;
-    --card_margin_h: 1em;
-    --card_margin_v: 0.5em;
+    --card_margin_h: 1.5em;
+    --card_margin_v: 0.3em;
     --nav_margin_t: 0.7em;
-    --nav_margin_b: 0.7em;
+    --nav_margin_b: 0.8em;
+    --nav_margin_h: 0.5em;
     --section_margin: 0.5em;
     --nav_item_margin: 0.3em;
     --content_max_width: 50em;
