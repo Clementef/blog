@@ -20,12 +20,6 @@ pre {
     padding: var(--card_margin_v) var(--card_margin_h) var(--card_margin_v) var(--card_margin_h); 
 } /* code block container */
 
-/* .chroma {
-    background-color: var(--hl2);
-    border: var(--border_style);
-    border-color: var(--fg)
-} */ /* code colors */
-
 .content {
     max-width: var(--content_max_width);
     text-align: left;
@@ -40,6 +34,7 @@ pre {
 
 .card {
     background-color: var(--hl);
+    shadow-color: hsl(220deg 60% 50%);
 }
 
 @media screen and (min-width: 52em) {
@@ -67,31 +62,6 @@ a:hover, a:visited, a:link, a:active {
     color: var(--link);
 }
 
-/* header {
-    margin-bottom: var(--section_margin);
-} */
-
-/* navbar */
-/* nav {
-    display: flex;
-} */
-
-/* nav ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-} */
-
-/* nav ul li {
-  font-size: 100%;
-  margin-right: var(--nav_item_margin);
-} */
-
-/* nav {
-    background-color: #111111;
-} */
-
 nav a {
   padding: var(--nav_margin_t) var(--card_margin_v) var(--nav_margin_b) var(--card_margin_v);
 } /* top right bottom left*/
@@ -109,17 +79,26 @@ footer {
     margin-top: var(--section_margin);
 }
 
-/* .margin-bottom {
-    margin-bottom: var(--section_margin);
-} */
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
 
 table, th, td {
   border: var(--border_style);
-  border-color: var(--fg)
+  border-color: var(--table_head);
 }
 
 th, td {
     padding: 0.4em;
+}
+
+th {
+    background-color: var(--table_head);
+}
+
+td {
+    background-color: var(--table_entry);
 }
 
 table {
@@ -130,5 +109,12 @@ blockquote {
   background: var(--blockquote_bg);
   border-left: .3em solid var(--blockquote_line);
   padding: 0.1em 1em 0.1em; /* top left bottom */
+}
+
+img{
+    height:auto;
+    width:auto;
+    max-height: var(--image_max_size);
+    max-width: var(--image_max_size);
 }
 

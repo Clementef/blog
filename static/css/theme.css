@@ -2,9 +2,11 @@
     --bg: #222222;
     --fg: #f8f8f2;
     --hl: #333333;
+    --link: #8be9fd;
+    --table_head: #222222;
+    --table_entry: #444444;
     --blockquote_bg: #444444;
     --blockquote_line: #888888;
-    --link: #8be9fd;
     --card_margin_h: 1em;
     --card_margin_v: 0.5em;
     --nav_margin_t: 0.7em;
@@ -14,4 +16,5 @@
     --content_max_width: 50em;
     --border_style: 0.1em solid;
     --border_radius: 0.5em;
+    --image_max_size: 30em;
 }
