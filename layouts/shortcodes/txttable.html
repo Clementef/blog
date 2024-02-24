@@ -1,0 +1,24 @@
+{{ with $file := path.Join "static/data/" (.Get 0) }}
+{{ $csv := getCSV "," $file }}
+
+<table>
+
+<!-- table head is first row -->
+<tr>
+{{ range index $csv 0 }}
+<th>{{ . }}</th>
+{{ end }}
+</tr>
+
+<!-- table body is the rest of the rows -->
+{{ range after 1 $csv }}
+<tr>
+{{ range . }}
+<td>{{ . }}</td>
+{{ end }}
+</tr>
+{{ end }} 
+
+</table>
+
+{{ end }}
