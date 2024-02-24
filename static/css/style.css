@@ -32,6 +32,12 @@ pre {
     margin: 0px auto;
 }
 
+.nav-center {
+    max-width: 52em;
+    text-align: left;
+    margin: 0px auto;
+}
+
 .card {
     background-color: var(--hl);
 }
@@ -43,7 +49,11 @@ pre {
 }
 
 .inset {
-    padding: var(--card_margin_v) var(--card_margin_h) var(--card_margin_v) var(--card_margin_h) 
+    padding: var(--card_margin_v) var(--card_margin_h) var(--card_margin_v) var(--card_margin_h);
+}
+
+.inset-nav{
+    padding: var(--nav_margin_t) 0 var(--nav_margin_b) 0
 }
 
 /* background and text color */
@@ -78,15 +88,13 @@ a:hover, a:visited, a:link, a:active {
   margin-right: var(--nav_item_margin);
 } */
 
-nav {
+/* nav {
     background-color: #111111;
-}
+} */
 
 nav a {
-  font-size: 16px;
-  color: white;
-  padding: 14px 16px;
-}
+  padding: var(--nav_margin_t) var(--card_margin_v) var(--nav_margin_b) var(--card_margin_v);
+} /* top right bottom left*/
 
 .post-list {
     list-style-type: none;
@@ -100,6 +108,10 @@ footer {
 .margin-top {
     margin-top: var(--section_margin);
 }
+
+/* .margin-bottom {
+    margin-bottom: var(--section_margin);
+} */
 
 table, th, td {
   border: var(--border_style);
@@ -115,8 +127,8 @@ table {
 }
 
 blockquote {
-  background: var(--hl);
-  border-left: .3em solid var(--hl2);
+  background: var(--blockquote_bg);
+  border-left: .3em solid var(--blockquote_line);
   padding: 0.1em 1em 0.1em; /* top left bottom */
 }
 
