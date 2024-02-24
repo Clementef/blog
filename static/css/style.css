@@ -111,10 +111,15 @@ blockquote {
   padding: 0.1em 1em 0.1em; /* top left bottom */
 }
 
-img{
-    height:auto;
-    width:auto;
-    max-height: var(--image_max_size);
+.img_contain {
     max-width: var(--image_max_size);
+    border: 1px solid #444444;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%; /* Ensure the image doesn't exceed its parent container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Prevent extra space below the image */
 }
 
