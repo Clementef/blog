@@ -1,6 +1,7 @@
 {{ with $file := path.Join "static/data/" (.Get 0) }}
 {{ $csv := getCSV "," $file }}
 
+<div class="scroll-table">
 <table>
 
 <!-- table head is first row -->
@@ -20,5 +21,6 @@
 {{ end }} 
 
 </table>
+</div>
 
 {{ end }}

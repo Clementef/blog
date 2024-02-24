@@ -79,7 +79,9 @@ footer {
     margin-top: var(--section_margin);
 }
 
-table {
+.scroll-table {
+   overflow-x: auto; 
+    max-width: 40em;
     margin-left: auto;
     margin-right: auto;
 }
@@ -87,6 +89,9 @@ table {
 table, th, td {
   border: var(--border_style);
   border-color: var(--table_head);
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
 }
 
 th, td {
@@ -113,13 +118,12 @@ blockquote {
 
 .img_contain {
     max-width: var(--image_max_size);
-    border: 1px solid #444444;
     margin: 0 auto;
 }
 
 img {
-    max-width: 100%; /* Ensure the image doesn't exceed its parent container */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Prevent extra space below the image */
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
