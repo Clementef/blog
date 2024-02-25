@@ -2,6 +2,6 @@
 
 ## built with [hugo](https://github.com/gohugoio/hugo)
 
-### hosted at <https://clementef.github.io/blog>
+### hosted at <clementef.com>
 
 ![demo image](static/img/demo_img.png)

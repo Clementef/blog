@@ -16,7 +16,7 @@
     --nav_item_margin: 0.3em;
     --content_max_width: 50em;
     --border_style: 0.1em solid;
-    --border_radius: 0.5em;
+    --border_radius: 0em;
     --image_max_size: 35em;
     --box_shadow: rgba(0, 0, 0, 0.12) 0em 0.1em 0.3em, rgba(0, 0, 0, 0.24) 0em 0.1em 0.2em;
 }
