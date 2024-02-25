@@ -1,7 +1,7 @@
 :root {
-    --bg: #282a36;
+    --bg: #222222;
     --fg: #f8f8f2;
-    --hl: #282a36;
+    --hl: #333333;
     --link: #8be9fd;
     --table_head: #222222;
     --table_entry: #444444;
@@ -18,5 +18,4 @@
     --border_style: 0.1em solid;
     --border_radius: 0.5em;
     --image_max_size: 35em;
-    --box_shadow: rgba(0, 0, 0, 0.12) 0em 0.1em 0.3em, rgba(0, 0, 0, 0.24) 0em 0.1em 0.2em;
 }

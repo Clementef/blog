@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>draft on personal blog</title>
-    <link>/categories/draft/</link>
-    <description>Recent content in draft on personal blog</description>
+    <title>Draft on personal blog</title>
+    <link>//localhost:1313/categories/draft/</link>
+    <description>Recent content in Draft on personal blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 21 Feb 2024 18:14:12 -0800</lastBuildDate>
-    <atom:link href="/categories/draft/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/categories/draft/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>initial post</title>
-      <link>/post/2024/02/21/initial_post/</link>
+      <link>//localhost:1313/post/2024/02/21/initial_post/</link>
       <pubDate>Wed, 21 Feb 2024 18:14:12 -0800</pubDate>
-      <guid>/post/2024/02/21/initial_post/</guid>
-      <description>markdown list numbered markdown list unordered footnote 1 $\LaTeX$ Rendering: $$f(x) = \sum_{n=0}^{\infty} a^n \cos(b^n \pi x)$$&#xA;$$ A = \begin{bmatrix} a_{11} &amp;amp; a_{12} &amp;amp; \dots &amp;amp; a_{1n} \\ a_{21} &amp;amp; a_{22} &amp;amp; \dots &amp;amp; a_{2n} \\ \vdots &amp;amp; \vdots &amp;amp; \ddots &amp;amp; \vdots \\ a_{n1} &amp;amp; a_{n2} &amp;amp; \dots &amp;amp; a_{nn} \end{bmatrix} $$&#xA;# r code x &amp;lt;- c(1,2,3,4) mean(x) # python code x = [i for i in range(5)] link: github</description>
+      <guid>//localhost:1313/post/2024/02/21/initial_post/</guid>
+      <description>Markdown Text Regular text. In adipiscing nam at iaculis, cras consectetur nunc dignissim aenean vitae et faucibus adipiscing semper eleifend ipsum sed aliquet, praesent praesent massa et enim aenean consequat, ut arcu. Dui egestas nam platea faucibus et molestie ac pellentesque vitae vel nisl amet eget, odio venenatis diam tempor ac tempor elementum convallis nullam arcu nulla, ullamcorper lorem dui nullam nullam. Natoque in elit tempus massa bibendum vel pulvinar, imperdiet tristique consectetur porta, nunc eros phasellus sem iaculis nascetur tortor ultrices etiam maximus tempus nisi vel ornare.</description>
     </item>
   </channel>
 </rss>

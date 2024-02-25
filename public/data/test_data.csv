@@ -1,0 +1,4 @@
+calendarId,title,start,end,category,very long string
+calpoly,work,2024-02-17,2024-02-17,allday,very long string
+calpoly,lecture,2024-02-18,2024-02-18,allday,very long string
+personal,programming,2024-02-17,2024-02-17,allday,very\nlong string

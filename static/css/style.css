@@ -11,6 +11,14 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.highlight {
+    margin-bottom: var(--section_margin);
+    border-left: .3em solid var(--blockquote_line);
+    box-shadow: var(--box_shadow);
+    background: var(--blockquote_bg);
+    margin: var(--card_margin_v) var(--card_margin_h) var(--card_margin_v) var(--card_margin_h); 
+}
+
 code {
     font-family: Consolas, monospace;
     font-size: 95%;
@@ -34,12 +42,18 @@ pre {
 
 .card {
     background-color: var(--hl);
-    shadow-color: hsl(220deg 60% 50%);
+}
+
+.nav-card {
+    background-color: var(--hl);
 }
 
 @media screen and (min-width: 52em) {
   .card {
     border-radius: var(--border_radius);
+  }
+  .nav-card {
+    border-radius: 0 0 var(--border_radius) var(--border_radius);
   }
 }
 
@@ -48,7 +62,7 @@ pre {
 }
 
 .inset-nav{
-    padding: var(--nav_margin_t) 0 var(--nav_margin_b) 0
+    padding: var(--nav_margin_t) var(--nav_margin_h) var(--nav_margin_b) var(--nav_margin_h);
 }
 
 /* background and text color */
@@ -72,6 +86,10 @@ nav a {
 
 footer {
     margin-top: var(--section_margin);
+    margin-bottom: var(--section_margin);
+}
+
+.margin-bottom {
     margin-bottom: var(--section_margin);
 }
 
@@ -111,9 +129,9 @@ table {
 }
 
 blockquote {
-  background: var(--blockquote_bg);
-  border-left: .3em solid var(--blockquote_line);
-  padding: 0.1em 1em 0.1em; /* top left bottom */
+    background: var(--blockquote_bg);
+    border-left: .3em solid var(--blockquote_line);
+    padding: var(--card_margin_v) var(--card_margin_h) var(--card_margin_v) var(--card_margin_h); 
 }
 
 .img_contain {
@@ -127,3 +145,6 @@ img {
     display: block;
 }
 
+.shadow {
+    box-shadow: var(--box_shadow);
+}

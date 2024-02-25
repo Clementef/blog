@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 
 {{if not .IsHome }}
-<div class="content inset card">
+<div class="content inset card shadow">
 <h1>{{ .Title | markdownify }}</h1>
 </div>
 {{ end }}
@@ -9,12 +9,12 @@
 <main>
 
 {{ with .Content }}
-<div class="content inset card">
+<div class="content inset card shadow">
 {{ . }}
 </div>
 {{ end }}
 
-<div class="content inset card margin-top">
+<div class="content inset card shadow margin-top">
 <h2>Posts:</h2>
 <ul class="post-list">
   {{ $pages := .Pages }}

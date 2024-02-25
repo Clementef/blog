@@ -1,0 +1,12 @@
+:root {
+    --bg: #282a36;
+    --fg: #f8f8f2;
+    --hl: #44475a;
+    --hl2: #6272a4;
+    --green: #50fa7b;
+    --card_margin_h: 1em;
+    --card_margin_v: 0.5em;
+    --section_margin: 0.5em;
+    --nav_item_margin: 0.7em;
+    --content_max_width: 50em;
+}
